@@ -15,14 +15,14 @@ Toler
 IterMax
 
 %printf("Solução de sistema linear pelo método de Jacobi\n");
-[x, Iter, Info] = jacobi(n, A, b, Toler, IterMax);
+%[x, Iter, Info] = jacobi(n, A, b, Toler, IterMax);
 
 ##x
 ##Iter
 ##Info
 
 printf("Solução de sistema linear pelo método de Gauss-Seidel\n");
-%[x, Iter, Info] = gauss_seidel(n, A, b, Toler, IterMax);
+[x, Iter, Info] = gauss_seidel(n, A, b, Toler, IterMax);
 
 x
 Iter
